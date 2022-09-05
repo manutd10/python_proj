@@ -11,7 +11,7 @@ class Fan:
 
     def get_name(self):
         """Fan nomi"""
-        return self.nomi
+        return self.nom
 
     def get_students(self):
             return [talaba.get_info() for talaba in self.talabalar]
@@ -19,3 +19,10 @@ class Fan:
     def get_students_num(self):
         """Fanga yozilgan talabalar soni"""
         return self.talabalar_soni
+
+
+
+# These codes are got from sariq dev's page. But done by my side
+    def delete_student(self, talaba):
+        self.talabalar.remove(talaba)
+        self.talabalar_soni += 1

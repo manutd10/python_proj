@@ -14,3 +14,9 @@ class Talaba:
 
 talaba1.set_bosqich(3)
 print(talaba1.get_info())
+
+
+
+print(talaba2.get_info)
+print(talaba2.get_info)
+print('Hello world')
