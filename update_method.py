@@ -13,3 +13,8 @@ talaba1.update_bosqich()
 print(talaba1.get_info())
 talaba1.update_bosqich()
 print(talaba1.get_info())
+
+
+print(talaba)
+print(talaba1)
+print(talaba2)
