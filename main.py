@@ -72,3 +72,4 @@ matem.add_student(talaba3)
 mat_talabalar=matem.get_students()
 print(mat_talabalar)
 
+print('My country is Uzbekistan')
